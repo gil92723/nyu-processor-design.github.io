@@ -17,20 +17,20 @@ basic and advanced operations.
 
 ## Initializing a Repository
 
-Inside a new empty folder, you can create a new `git` repo using the command:
+**Using git:** Inside a new empty folder, you can create a new `git` repo using the command
 
 ```
 git init
 ```
 
-This is equivalent to using the "Initialize Repository" button in the Source Control
-tab:
+**Using source control:** Click the "Initialize Repository" button in the Source Control
+tab, which can be found after clicking on the third icon on the far left ribbon.
 
 <img src="/images/git/init.webp" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
 
 ## Staging Files
 
-When a new file is added to the project, or changes are made to a file, you can
+**Using git:** When a new file is added to the project, or changes are made to a file, you can
 inform `git` about those changes with the command:
 
 ```
@@ -50,7 +50,7 @@ Where the `.` is a Unix filesystem convention for refering to the current
 folder. This command tells `git` to add all files that have been added or
 changed to "staging".
 
-The equivalent in the Source Control tab is to use the plus and minus signs to move
+**Using source control:** The equivalent in the Source Control tab is to use the plus and minus signs on the right of a file when hovered over to move
 files in and out of "staging":
 
 <img src="/images/git/staging.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
@@ -64,7 +64,7 @@ guidelines for what to write in this message. The czar of a given repo may
 require this or some other commit message format if you eventually want them to
 incorporate your changes "upstream".
 
-The commands to make a commit message depend on how long your message is,
+**Using git:** The commands to make a commit message depend on how long your message is,
 commits with short messages can be made with the following:
 
 ```
@@ -81,19 +81,19 @@ git commit
 is saved and the editor is exited, `git` will open that file and read the
 commit message.
 
-The equivalent in the Source Control tab is the commit box:
+**Using source control:** Add a commit message at the top bar that says "Message", then click the blue commit box to commit your *staged changes* (do make sure your changes are staged in order to be committed):
 
 <img src="/images/git/commit.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
 
 ## Pushing Changes
 
 Once changes have been made to a local repo, they can be pushed to tracked
-remotes using the following command:
+remotes 
+**Using git:** Utilize the command
 
 ```
 git push
 ```
-
-This is _somewhat_ equivalent to the Source Control operation of "syncing"
+**Using source control:** Click the blue "Sync Changes" box, which would then push your changes to main
 
 <img src="/images/git/sync.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
