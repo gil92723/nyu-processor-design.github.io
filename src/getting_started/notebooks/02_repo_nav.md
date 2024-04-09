@@ -95,6 +95,6 @@ remotes
 ```
 git push
 ```
-**Using source control:** Click the blue "Sync Changes" box, which would then push your changes to your branch
+**Using source control:** Click the blue "Sync Changes" box, which would then push your changes to your branch and confirm the push pull that will occur when prompted
 
 <img src="/images/git/sync.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
